@@ -2563,24 +2563,27 @@
 			color: #544d55;
 		}
 
-		#header .logo {
-			background: #4eb980;
+		/*#header .logo {
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
-			display: inline-block;
+			display: block;
 			font-size: 2.25em;
-			height: 2.35em;
+			max-height: .5em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
-			text-align: center;
-			width: 2.35em;
+			max-width: .5em;
+		}*/
+		#header img{
+			max-height: 30.5em;
+			max-width: 30.5em;
+			display: inline-block;
 		}
-
-			#header .logo.fa-paper-plane-o:before {
+/*
+			#header .logo:before {
 				left: -0.075em;
 				position: relative;
-			}
+			}*/
 
 		#header h1 {
 			font-size: 2.5em;
